@@ -1,0 +1,20 @@
+{
+  "name": "ap4-heroku",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lisamdespain/node-ap4-heroku.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lisamdespain/node-ap4-heroku/issues"
+  },
+  "homepage": "https://github.com/lisamdespain/node-ap4-heroku#readme"
+}

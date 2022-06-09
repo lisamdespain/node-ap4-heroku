@@ -1,20 +1,28 @@
 {
-  "name": "ap4-heroku",
+  "name": "api4-heroku",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "server": "nodemon index.js",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lisamdespain/node-ap4-heroku.git"
+    "url": "git+https://github.com/jamesblacklock/node-api4-heroku.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/lisamdespain/node-ap4-heroku/issues"
+    "url": "https://github.com/jamesblacklock/node-api4-heroku/issues"
   },
-  "homepage": "https://github.com/lisamdespain/node-ap4-heroku#readme"
+  "homepage": "https://github.com/jamesblacklock/node-api4-heroku#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1"
+  }
 }
